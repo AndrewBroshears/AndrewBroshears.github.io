@@ -1,137 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Portfolio</title>
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Andrew Broshears</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
-                    </ul>
-                </div>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Andrew Broshears — Application Developer</title>
+    <meta name="description" content="Application Developer at Kimball International building and modernizing internal manufacturing and business systems with C#, .NET, Blazor, SignalR and SQL Server." />
+    <meta name="author" content="Andrew Broshears" />
+    <link rel="canonical" href="https://andrewbroshears.github.io/" />
+
+    <!-- Open Graph / social previews -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Andrew Broshears — Application Developer" />
+    <meta property="og:description" content="I build and modernize the internal applications that keep manufacturing running — C#, .NET, Blazor, SignalR, SQL Server." />
+    <meta property="og:url" content="https://andrewbroshears.github.io/" />
+    <meta property="og:image" content="https://andrewbroshears.github.io/assets/img/ab-720.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23e2613a'/%3E%3Ctext x='16' y='22' font-family='system-ui,sans-serif' font-size='15' font-weight='700' fill='white' text-anchor='middle'%3EAB%3C/text%3E%3C/svg%3E" />
+
+    <!-- Type -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Icons: Bootstrap Icons for UI, Devicon for technology badges -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css" />
+
+    <link href="css/custom.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Navigation -->
+    <nav class="nav-ab" id="mainNav">
+        <div class="shell">
+            <a class="nav-ab__brand" href="#page-top">
+                <span class="nav-ab__mark" aria-hidden="true">AB</span>
+                Andrew Broshears
+            </a>
+
+            <div class="nav-ab__menu" id="navMenu">
+                <ul class="nav-ab__links">
+                    <li><a class="nav-ab__link" href="#stack">Stack</a></li>
+                    <li><a class="nav-ab__link" href="#work">Work</a></li>
+                    <li><a class="nav-ab__link" href="#projects">Projects</a></li>
+                    <li><a class="nav-ab__link" href="#experience">Experience</a></li>
+                    <li><a class="nav-ab__link" href="#about">About</a></li>
+                    <li><a class="nav-ab__link" href="#contact">Contact</a></li>
+                </ul>
             </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 text-center">
-                        <img class="rounded-circle" alt="100x100" src="assets\img\ProfilePic1.png">
-                        <h1 class="text-white font-weight-bold">Andrew Broshears</h1>
-                        <p class="text-white-75 mb-5">Full-Stack Software Engineer | Leader | Learner | Collaborator</p>
-                        <hr class="divider" />
-                        <p>In 2021 I decided that I wanted to change my career path and start venturing towards a career I could feel more passionate about, Software Developement. I started teaching myself HTML and CSS and realized I was able to create things that were enjoyable to me. I quickly joined Eleven Fifty Academy's online Software Developer courses and began a 24-week immersive program learning C#, .NET, SQL and so much more!</p>
-                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
-                    
+
+            <button class="nav-ab__toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navMenu">
+                <i class="bi bi-list" aria-hidden="true"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main id="main">
+        <!-- Hero -->
+        <header class="hero">
+            <div class="shell">
+                <div class="hero__grid">
+                    <div>
+                        <p class="hero__status"><i aria-hidden="true"></i> Application Developer at Kimball International</p>
+                        <h1>Andrew Broshears</h1>
+                        <p class="hero__role">I build and modernize the internal applications that <span>keep manufacturing running</span>.</p>
+                        <p class="lede">
+                            Full-stack developer working in C#, .NET, Blazor and SQL Server. I spend my days on the
+                            factory floor and in the codebase — turning real operational problems into real-time
+                            applications people actually use on every shift.
+                        </p>
+                        <div class="btn-row">
+                            <a class="btn-ab btn-ab--primary" href="#projects">
+                                <i class="bi bi-code-slash" aria-hidden="true"></i> See my work
+                            </a>
+                            <a class="btn-ab btn-ab--ghost" href="assets/Andrew_Broshears_Resume_v2.pdf" target="_blank" rel="noopener">
+                                <i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i> Résumé
+                            </a>
+                            <a class="btn-ab btn-ab--ghost" href="https://github.com/AndrewBroshears" target="_blank" rel="noopener">
+                                <i class="bi bi-github" aria-hidden="true"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <figure class="hero__portrait">
+                        <picture>
+                            <source srcset="assets/img/ab-720.webp" type="image/webp" />
+                            <img src="assets/img/ab-720.jpg" width="720" height="720"
+                                 alt="Portrait of Andrew Broshears" fetchpriority="high" />
+                        </picture>
+                    </figure>
                 </div>
+
+                <dl class="hero__meta">
+                    <div>
+                        <dt>Focus</dt>
+                        <dd>Application modernization</dd>
+                    </div>
+                    <div>
+                        <dt>Primary stack</dt>
+                        <dd>C# · .NET · Blazor</dd>
+                    </div>
+                    <div>
+                        <dt>Domain</dt>
+                        <dd>Manufacturing systems</dd>
+                    </div>
+                    <div>
+                        <dt>Based in</dt>
+                        <dd>Santa Claus, Indiana</dd>
+                    </div>
+                </dl>
             </div>
         </header>
 
-        <!-- About-->
-        <section class="page-section bg-primary" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">Journey to becoming a Full-Stack Software Engineer</h2>
-                        <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">For most my professional career I have worked in manufacturing holding several different managment roles. My background in Continuous Improvement and Lean Manufacturing have always provided me success along with my soft-skills such as: <b>communication, crtitical-thinking, work-ethic, leadership, positive attitude and organization.</b></p>
-                        <hr class="divider divider-light"/>
-                        <p class="text-black-75 mb-4">The first college I attended was Kentucky Wesleyan College where I played varsity soccer on scholarship. My degree focus was in accounting which I didn't find very exciting but proceeded with anyways. For my first time in the real-world I realized how financially challenging it was going to be pursuing my degree at a private school. Even though I love soccer and to this day is still a passion of mine, I knew I was going to have give it up if I wanted to make through college. So, I transferred to Ivy Tech Community College pursuing accounting and business administration and that's when I started working full-time at MasterBrand and growing my management career.</p>
-                        <a class="btn btn-light btn-xl" href='assets\AndrewBroshearsResumeSoftwareDev.pdf'>Download My Resume</a>
-                        <hr class="divider divider-light"/>
-                        <h4 class="text-white mt-0">Hobbies/Volunteer</h4>
-                        <p class="text-white-75 mb-4">When I'm not working on Software Developement projects I continue to enjoy playing and watching soccer as much as possible. I enjoy being apart of the soccer community that surrounds me. I have coached several soccer teams, teaching the fundamentals and helping them experience the success and joys of soccer. During the soccer seasons I also help referee for leagues in the community.</p>
-                        <hr class="divider divider-light"/>
-                        <p class="text-black-75 mb-4">Most importantly I enjoy spending time with my wife hiking, kayaking, exercising and of course traveling! We love experiencing new and old places together and look forward to being able to see the world.</p>
-                        <a class="btn btn-light btn-xl" href="#projects">See My Work!</a>
-                    </div>
+        <!-- Stack -->
+        <section class="section section--alt" id="stack">
+            <div class="shell reveal">
+                <div class="section__head">
+                    <p class="eyebrow">Toolset</p>
+                    <h2>The stack I work in daily</h2>
+                    <p class="lede">Everything below is something I've shipped or supported in production — not a wish list.</p>
                 </div>
-            </div>
-        </section>
-        
-        <!-- Projects-->
-        <div id="projects">
-            <div class="container-fluid p-0">
-                <div class="row g-0">
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="https://codepen.io/andrewbroshears/pen/OJjzryr" title="My First CSS Project">
-                            <img class="img-fluid" src="assets\img\CreatureLg.png" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Project</div>
-                                <div class="project-name">CSS Creature</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="https://github.com/FabiAguilera/AndromedaWaveFinal" title="API Group Project">
-                            <img class="img-fluid" src="assets\img\AndromedaWavePic.png" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Project</div>
-                                <div class="project-name">Andromea Wave API</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="https://playdatedeploymentdemo.azurewebsites.net/" title="First Web Deployment">
-                            <img class="img-fluid" src="assets\img\PlayDatePic.png" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Project</div>
-                                <div class="project-name">PlayDate</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>    
-        </section>
-        <!-- Contact-->
-        <section class="page-section bg-primary" id="contact">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0">Let's Get In Touch!</h2>
-                        <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">Ready to start your next project with me? Send me a message and I will get back to you as soon as possible!</p>
-                            <button><a href="https://www.linkedin.com/in/andrewbroshears/">
-                                <i class="fa fa-linkedin-square" style="font-size: 48px;"></i></a></button>
-                            <button><a href="https://github.com/AndrewBroshears/" target="_blank" class='github'><i class="fa fa-github" style="font-size:48px"></i></a></button>
-                    </div>
-                </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                        <i class="bi-phone fs-2 mb-3 text-muted"></i>
-                        <div>+1 (812) 686-4099</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="bg-light py-5">
-            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2021 - Andrew Broshears</div></div>
 
-            
-            </div></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- SimpleLightbox plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+                <div class="stack">
+                    <div class="stack__group">
+                        <h3>Languages</h3>
+                        <ul class="chips">
+                            <li class="chip"><i class="devicon-csharp-plain colored" aria-hidden="true"></i> C#</li>
+                            <li class="chip"><i class="devicon-microsoftsqlserver-plain colored" aria-hidden="true"></i> SQL</li>
+                            <li class="chip"><i class="devicon-javascript-plain colored" aria-hidden="true"></i> JavaScript</li>
+                            <li class="chip"><span class="chip__dot" aria-hidden="true">VB</span> VB.NET</li>
+                        </ul>
+                    </div>
+
+                    <div class="stack__group">
+                        <h3>Frameworks</h3>
+                        <ul class="chips">
+                            <li class="chip"><i class="devicon-dot-net-plain colored" aria-hidden="true"></i> .NET</li>
+                            <li class="chip"><i class="devicon-dotnetcore-plain colored" aria-hidden="true"></i> ASP.NET Core</li>
+                            <li class="chip"><i class="devicon-blazor-plain colored" aria-hidden="true"></i> Blazor</li>
+                            <li class="chip"><span class="chip__dot" aria-hidden="true">RP</span> Razor Pages</li>
+                            <li class="chip"><span class="chip__dot" aria-hidden="true">SR</span> SignalR</li>
+                        </ul>
+                    </div>
+
+                    <div class="stack__group">
+                        <h3>Data</h3>
+                        <ul class="chips">
+                            <li class="chip"><i class="devicon-microsoftsqlserver-plain colored" aria-hidden="true"></i> SQL Server</li>
+                            <li class="chip"><span class="chip__dot" aria-hidden="true">EF</span> Entity Framework</li>
+                            <li class="chip"><span class="chip__dot" aria-hidden="true">DP</span> Dapper</li>
+                        </ul>
+                    </div>
+
+                    <div class="stack__group">
+                        <h3>Platforms &amp; tooling</h3>
+                        <ul class="chips">
+                            <li class="chip"><i class="devicon-azure-plain colored" aria-hidden="true"></i> Azure</li>
+                            <li class="chip"><i class="devicon-azuredevops-plain colored" aria-hidden="true"></i> Azure DevOps</li>
+                            <li class="chip"><i class="devicon-git-plain colored" aria-hidden="true"></i> Git</li>
+                            <li class="chip"><span class="chip__dot" aria-hidden="true">PA</span> PowerApps</li>
+                            <li class="chip"><span class="chip__dot" aria-hidden="true">PA</span> Power Automate</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work / systems -->
+        <section class="section" id="work">
+            <div class="shell reveal">
+                <div class="section__head">
+                    <p class="eyebrow">Systems I build &amp; support</p>
+                    <h2>Production software behind the plant floor</h2>
+                    <p class="lede">
+                        These are internal applications at Kimball International, so the source isn't public — but
+                        they're where most of my engineering happens. Real users, real uptime expectations, real
+                        consequences when something breaks.
+                    </p>
+                </div>
+
+                <div class="cards">
+                    <article class="card-ab">
+                        <div class="card-ab__title"><h3>ServiceHub</h3></div>
+                        <p>Real-time manufacturing workflow and operational visibility app. Pushes live status to the floor over SignalR so teams stop chasing updates by radio and spreadsheet.</p>
+                        <ul class="tags">
+                            <li class="tag">Blazor</li>
+                            <li class="tag">SignalR</li>
+                            <li class="tag">SQL Server</li>
+                        </ul>
+                    </article>
+
+                    <article class="card-ab">
+                        <div class="card-ab__title"><h3>SalemFanFold</h3></div>
+                        <p>Greenfield MVC application supporting the Fan Fold manufacturing process end to end — built on current .NET rather than patched onto a legacy stack.</p>
+                        <ul class="tags">
+                            <li class="tag">.NET 10</li>
+                            <li class="tag">ASP.NET MVC</li>
+                            <li class="tag">Entity Framework</li>
+                        </ul>
+                    </article>
+
+                    <article class="card-ab">
+                        <div class="card-ab__title"><h3>ASN / ESN Email Service</h3></div>
+                        <p>Background .NET service that generates and delivers order-related notifications to subscribers, with retry handling and delivery logging for auditability.</p>
+                        <ul class="tags">
+                            <li class="tag">.NET</li>
+                            <li class="tag">REST APIs</li>
+                            <li class="tag">SQL Server</li>
+                        </ul>
+                    </article>
+
+                    <article class="card-ab">
+                        <div class="card-ab__title"><h3>SerialScan</h3></div>
+                        <p>Equipment-aware scanning application driving shop-floor workflows and integrations. A legacy VB.NET system I maintain, extend, and am incrementally modernizing.</p>
+                        <ul class="tags">
+                            <li class="tag">VB.NET</li>
+                            <li class="tag">Integrations</li>
+                            <li class="tag tag--neutral">Modernization</li>
+                        </ul>
+                    </article>
+
+                    <article class="card-ab">
+                        <div class="card-ab__title"><h3>TimeTracker</h3></div>
+                        <p>Internal time-tracking application supporting payroll-adjacent business processes across multiple facilities.</p>
+                        <ul class="tags">
+                            <li class="tag">VB.NET</li>
+                            <li class="tag">SQL Server</li>
+                        </ul>
+                    </article>
+
+                    <article class="card-ab">
+                        <div class="card-ab__title"><h3>BasePayReview</h3></div>
+                        <p>Angular front end on a .NET API supporting compensation review cycles. I own support, enhancements, and production troubleshooting.</p>
+                        <ul class="tags">
+                            <li class="tag">Angular</li>
+                            <li class="tag">.NET</li>
+                        </ul>
+                    </article>
+
+                    <article class="card-ab">
+                        <div class="card-ab__title"><h3>Power Platform Solutions</h3></div>
+                        <p>PowerApps and Power Automate flows that replace manual routing and approvals — the right-sized tool when a full application would be overkill.</p>
+                        <ul class="tags">
+                            <li class="tag">PowerApps</li>
+                            <li class="tag">Power Automate</li>
+                        </ul>
+                    </article>
+
+                    <article class="card-ab">
+                        <div class="card-ab__title"><h3>BizTalk &amp; SAP Integrations</h3></div>
+                        <p>Support of legacy integration processes involving SAP IDOCs and mappings, plus Salesforce integration work keeping systems in sync.</p>
+                        <ul class="tags">
+                            <li class="tag">BizTalk</li>
+                            <li class="tag">SAP IDOC</li>
+                            <li class="tag">Salesforce</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Public projects -->
+        <section class="section section--alt" id="projects">
+            <div class="shell reveal">
+                <div class="section__head">
+                    <p class="eyebrow">Public projects</p>
+                    <h2>Code you can actually open</h2>
+                    <p class="lede">Projects from my Eleven Fifty Academy immersive and side work — where the career change started.</p>
+                </div>
+
+                <div class="projects">
+                    <article class="project">
+                        <div class="project__shot">
+                            <picture>
+                                <source srcset="assets/img/project-andromeda.webp" type="image/webp" />
+                                <img src="assets/img/project-andromeda.jpg" loading="lazy" decoding="async"
+                                     alt="Screenshot of the Andromeda Wave application interface" />
+                            </picture>
+                        </div>
+                        <div class="project__body">
+                            <h3>Andromeda Wave</h3>
+                            <p>Team-built application consuming a third-party API, with a shared Git workflow, feature branching, and code review across four developers.</p>
+                            <ul class="tags">
+                                <li class="tag">C#</li>
+                                <li class="tag">.NET</li>
+                                <li class="tag">REST API</li>
+                            </ul>
+                            <div class="project__links">
+                                <a href="https://github.com/FabiAguilera/AndromedaWaveFinal" target="_blank" rel="noopener">
+                                    <i class="bi bi-github" aria-hidden="true"></i> Source
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <div class="project__shot">
+                            <picture>
+                                <source srcset="assets/img/project-playdate.webp" type="image/webp" />
+                                <img src="assets/img/project-playdate.jpg" loading="lazy" decoding="async"
+                                     alt="Screenshot of the PlayDate web application" />
+                            </picture>
+                        </div>
+                        <div class="project__body">
+                            <h3>PlayDate</h3>
+                            <p>My first full deployment pipeline — a .NET web app built, configured, and shipped to Azure App Service end to end.</p>
+                            <ul class="tags">
+                                <li class="tag">.NET</li>
+                                <li class="tag">Azure</li>
+                                <li class="tag">Deployment</li>
+                            </ul>
+                            <div class="project__links">
+                                <a href="https://playdatedeploymentdemo.azurewebsites.net/" target="_blank" rel="noopener">
+                                    <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Live demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <div class="project__shot">
+                            <picture>
+                                <source srcset="assets/img/project-creature.webp" type="image/webp" />
+                                <img src="assets/img/project-creature.jpg" loading="lazy" decoding="async"
+                                     alt="Screenshot of a creature illustration drawn entirely in CSS" />
+                            </picture>
+                        </div>
+                        <div class="project__body">
+                            <h3>CSS Creature</h3>
+                            <p>An illustration built from nothing but HTML elements and CSS — the project that convinced me a career change was worth it.</p>
+                            <ul class="tags">
+                                <li class="tag">HTML</li>
+                                <li class="tag">CSS</li>
+                            </ul>
+                            <div class="project__links">
+                                <a href="https://codepen.io/andrewbroshears/pen/OJjzryr" target="_blank" rel="noopener">
+                                    <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> View on CodePen
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="section" id="experience">
+            <div class="shell reveal">
+                <div class="section__head">
+                    <p class="eyebrow">Experience</p>
+                    <h2>From the plant floor to the codebase</h2>
+                </div>
+
+                <ol class="timeline">
+                    <li>
+                        <p class="timeline__when">Sept 2022 — Present</p>
+                        <p class="timeline__what">Application Developer <span class="timeline__where">· Kimball International</span></p>
+                        <p>Develop, maintain, and modernize internal applications supporting manufacturing and business operations. Build with ASP.NET Core, Blazor, SignalR, SQL Server, Entity Framework and REST APIs; own deployments, integrations, and production issues across multiple systems.</p>
+                    </li>
+                    <li>
+                        <p class="timeline__when">2022</p>
+                        <p class="timeline__what">Business Systems Analyst <span class="timeline__where">· Kimball International</span></p>
+                        <p>Requirements gathering, issue investigation, and solution analysis bridging business and technical teams during a transition role.</p>
+                    </li>
+                    <li>
+                        <p class="timeline__when">2021 — 2022</p>
+                        <p class="timeline__what">Software Development Immersive <span class="timeline__where">· Eleven Fifty Academy</span></p>
+                        <p>24-week industry-guided program with 500+ hours of project-based coding in C#, .NET and SQL. Graduated with the EFA Gold Badge.</p>
+                    </li>
+                    <li>
+                        <p class="timeline__when">2014 — 2022</p>
+                        <p class="timeline__what">Manufacturing Leadership <span class="timeline__where">· MasterBrand &amp; Kimball International</span></p>
+                        <p>Progressed from Continuous Improvement Specialist to Assistant Supervisor to Supervisor — process improvement, employee development, and production problem solving. It's why I can talk to the people who use my software.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section section--alt" id="about">
+            <div class="shell reveal">
+                <div class="about">
+                    <div>
+                        <p class="eyebrow">About</p>
+                        <h2>Developer who came up through operations</h2>
+                        <p>
+                            I spent eight years in manufacturing leadership before I wrote code professionally. That
+                            background is the whole reason I'm effective now: I already understood the processes,
+                            the constraints, and the people I'd eventually be building for.
+                        </p>
+                        <p>
+                            Today I focus on application modernization — taking systems that work but are showing
+                            their age and moving them forward without disrupting the operation depending on them.
+                            I like the unglamorous problems: the integration nobody wants to touch, the legacy
+                            VB.NET app that still runs a shift.
+                        </p>
+
+                        <details class="disclosure">
+                            <summary>A bit more about me</summary>
+                            <div class="disclosure__body">
+                                <p>
+                                    I started at Kentucky Wesleyan College playing varsity soccer on scholarship,
+                                    studying accounting. Private-school tuition made that path unsustainable, so I
+                                    transferred to Ivy Tech for business administration and started working full-time
+                                    at MasterBrand — which is where my management career actually began.
+                                </p>
+                                <p>
+                                    In 2021 I taught myself HTML and CSS on nights and weekends, realized I genuinely
+                                    enjoyed building things, and committed to Eleven Fifty Academy's immersive program.
+                                </p>
+                                <p>
+                                    Outside of work I still play, coach, and referee soccer around my community, and
+                                    my wife and I spend as much time as we can hiking, kayaking, and traveling.
+                                </p>
+                            </div>
+                        </details>
+                    </div>
+
+                    <div>
+                        <h3>Strengths</h3>
+                        <ul class="chips chips--spaced">
+                            <li class="chip">Application modernization</li>
+                            <li class="chip">Manufacturing systems</li>
+                            <li class="chip">Business process analysis</li>
+                            <li class="chip">Requirements gathering</li>
+                            <li class="chip">Production support</li>
+                            <li class="chip">Continuous improvement</li>
+                            <li class="chip">Stakeholder collaboration</li>
+                        </ul>
+
+                        <h3>Recognition</h3>
+                        <ul class="chips">
+                            <li class="chip"><i class="bi bi-award" aria-hidden="true"></i> Leadership Excellence Award</li>
+                            <li class="chip"><i class="bi bi-shield-check" aria-hidden="true"></i> Safety Kaizen Award</li>
+                            <li class="chip"><i class="bi bi-patch-check" aria-hidden="true"></i> EFA Gold Badge</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="shell reveal">
+                <div class="contact">
+                    <div>
+                        <p class="eyebrow">Contact</p>
+                        <h2>Let's talk shop</h2>
+                        <p class="lede">
+                            Open to conversations about .NET, application modernization, or manufacturing systems —
+                            whether that's a role, a problem you're stuck on, or just comparing notes.
+                        </p>
+                    </div>
+
+                    <ul class="contact__links">
+                        <li>
+                            <a class="contact__link" href="mailto:ambroshears@gmail.com">
+                                <i class="bi bi-envelope" aria-hidden="true"></i>
+                                <span class="contact__text"><span class="contact__label">Email</span>ambroshears@gmail.com</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="contact__link" href="https://www.linkedin.com/in/andrewbroshears/" target="_blank" rel="noopener">
+                                <i class="bi bi-linkedin" aria-hidden="true"></i>
+                                <span class="contact__text"><span class="contact__label">LinkedIn</span>in/andrewbroshears</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="contact__link" href="https://github.com/AndrewBroshears" target="_blank" rel="noopener">
+                                <i class="bi bi-github" aria-hidden="true"></i>
+                                <span class="contact__text"><span class="contact__label">GitHub</span>@AndrewBroshears</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="contact__link" href="assets/Andrew_Broshears_Resume_v2.pdf" target="_blank" rel="noopener">
+                                <i class="bi bi-file-earmark-text" aria-hidden="true"></i>
+                                <span class="contact__text"><span class="contact__label">Résumé</span>Download PDF</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="shell">
+            <p>&copy; <span id="year">2026</span> Andrew Broshears</p>
+            <p>Santa Claus, Indiana · <a href="#page-top">Back to top</a></p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
 </html>
